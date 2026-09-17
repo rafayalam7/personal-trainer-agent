@@ -1,0 +1,33 @@
+{
+  "_comment": "Real get_athlete_zones response, unmodified (no PII/location in this endpoint at all). Zone 2 = heart_rate_zones[1] = {min:132, max:163}.",
+  "heart_rate_zones": [
+    { "min": 0, "max": 131 },
+    { "min": 132, "max": 163 },
+    { "min": 164, "max": 179 },
+    { "min": 180, "max": 195 },
+    { "min": 196 }
+  ],
+  "heart_rate_zone_source": "MaxHeartRate",
+  "power_zones": [
+    { "min": 0, "max": 80 },
+    { "min": 81, "max": 109 },
+    { "min": 110, "max": 131 },
+    { "min": 132, "max": 152 },
+    { "min": 153, "max": 174 },
+    { "min": 175, "max": 218 },
+    { "min": 219 }
+  ],
+  "power_zone_source": "EstimatedFtpFromPower",
+  "ftp": 145,
+  "ftp_is_estimated": true,
+  "run_zones": [
+    { "min": 0, "max": 2.417 },
+    { "min": 2.417, "max": 2.807 },
+    { "min": 2.807, "max": 3.127 },
+    { "min": 3.127, "max": 3.341 },
+    { "min": 3.341, "max": 3.554 },
+    { "min": 3.554 }
+  ],
+  "run_zone_source": "PerformancePredictions",
+  "sample_race_pace": { "best_effort_type": "Fastest5k", "time": "25m 33s", "is_estimated": true }
+}

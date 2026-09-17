@@ -1,0 +1,8 @@
+{
+  "_expected": "adaptCaptures([this]) -> retrievalStatus: failed. computeTrailingRunningDistance on the result -> coverage.status: retrieval_failed, result.value_m: null (never 0 -- null means 'unknown', 0 means 'measured and zero'). This is the actual shape .claude/hooks/capture-strava.js writes on PostToolUseFailure.",
+  "status": "retrieval_failed",
+  "tool_name": "mcp__strava-mcp__list_activities",
+  "tool_input": { "first": 30, "include_tags": true },
+  "error": "failed to list activities",
+  "captured_at": "2026-09-11T21:00:00.000Z"
+}

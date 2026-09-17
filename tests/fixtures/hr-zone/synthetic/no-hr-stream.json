@@ -1,0 +1,5 @@
+{
+  "_expected": "No heart_rate key at all in the raw streams object (only time/moving present) -> normalizeHeartRateStream sets heart_rate_stream_present:false -> eligibilityForHrZoneTime returns state:'missing', excluded before any interval attribution is attempted.",
+  "time": [0, 1, 2],
+  "moving": [true, true, true]
+}

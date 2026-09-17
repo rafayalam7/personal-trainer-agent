@@ -1,0 +1,9 @@
+{
+  "_expected": "eligible: false, state: invalid, reason mentions moving_time -- invalid because moving_time (45s) is below the configured floor, NOT because is_trainer:true. is_trainer alone no longer determines eligibility (see eligibility.js); this fixture happens to be a treadmill run that is ALSO genuinely invalid on the evidence.",
+  "id": "syn-002",
+  "name": "Synthetic treadmill run, genuinely invalid on the evidence",
+  "sport_type": "Run",
+  "start_local": "2026-09-08T08:00:00",
+  "is_trainer": true,
+  "summary": { "distance": 3200, "moving_time": 45, "elapsed_time": 45 }
+}

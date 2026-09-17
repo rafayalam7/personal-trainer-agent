@@ -1,0 +1,6 @@
+{
+  "_expected": "hr=163 is exactly Zone 2's upper (inclusive) boundary -> zone2_seconds=1, not other_zone (not Zone 3).",
+  "time": [0, 1],
+  "heart_rate": [163, 163],
+  "moving": [true, true]
+}

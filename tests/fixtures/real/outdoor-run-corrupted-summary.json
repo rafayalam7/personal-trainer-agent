@@ -1,0 +1,22 @@
+{
+  "_comment": "Sanitized real capture (activity 90000000003, 'Afternoon Run', 2026-08-29). is_trainer:false (outdoor, GPS-tagged) but summary is structurally broken: 2.85mi per the athlete's description vs. distance:41.9m and moving_time:8s. This is the real record that justified the minMovingTimeSeconds rule in CONTRACT.md — is_trainer alone would not have caught it. location_summary and gear_id stripped; activity ID replaced with a synthetic placeholder for public release.",
+  "id": "90000000003",
+  "name": "Afternoon Run",
+  "description": "2.85 mi\nNorwegian 4x4\n8.0-8.5 pace",
+  "sport_type": "Run",
+  "start_local": "2026-08-29T15:56:38",
+  "is_trainer": false,
+  "activity_tags": ["Workout"],
+  "summary": {
+    "distance": 41.9222,
+    "moving_time": 8,
+    "elapsed_time": 1809,
+    "elevation_gain": 0,
+    "avg_speed": 5.240275,
+    "max_speed": 0.622109,
+    "total_calories": 4,
+    "kudos_count": 0,
+    "achievement_count": 0,
+    "pr_count": 0
+  }
+}

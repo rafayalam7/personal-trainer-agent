@@ -1,0 +1,9 @@
+{
+  "_expected": "With windowEnd=2026-09-11T21:00:00 America/Chicago (CDT, -05:00) and windowHours=168, windowStart=2026-09-04T21:00:00 America/Chicago. This activity's start_local exactly equals windowStart -> EXCLUDED under the half-open (window_start, window_end] convention (window_start is open/excluded). REVISED from the earlier both-inclusive design, where this same fixture was expected INCLUDED.",
+  "id": "syn-006",
+  "name": "Synthetic run exactly at window start",
+  "sport_type": "Run",
+  "start_local": "2026-09-04T21:00:00",
+  "is_trainer": false,
+  "summary": { "distance": 1000, "moving_time": 600, "elapsed_time": 600 }
+}

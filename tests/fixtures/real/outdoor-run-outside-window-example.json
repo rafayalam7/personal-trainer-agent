@@ -1,0 +1,22 @@
+{
+  "_comment": "Sanitized real capture (activity 90000000006, 'Evening Run', 2026-09-04T19:10:00). Otherwise a perfectly valid outdoor run — used to demonstrate window-membership filtering, not eligibility filtering, when window_end is anchored near 2026-09-11. gear_id stripped; activity ID replaced with a synthetic placeholder for public release.",
+  "id": "90000000006",
+  "name": "Evening Run",
+  "description": "2.8 mi\n3 min walk at 20:00 min pace, 4 min run at 7:00 min pace\nMax heart rate: 200\nLow heart rate: 150\nAvg heart rate: 178",
+  "sport_type": "Run",
+  "start_local": "2026-09-04T19:10:00",
+  "is_trainer": false,
+  "activity_tags": ["Workout"],
+  "summary": {
+    "distance": 4506.17,
+    "moving_time": 1680,
+    "elapsed_time": 1680,
+    "elevation_gain": 0,
+    "avg_speed": 2.6822440476190477,
+    "max_speed": 0,
+    "total_calories": 439,
+    "kudos_count": 0,
+    "achievement_count": 0,
+    "pr_count": 0
+  }
+}

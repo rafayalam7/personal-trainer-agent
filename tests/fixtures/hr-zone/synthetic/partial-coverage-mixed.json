@@ -1,0 +1,6 @@
+{
+  "_expected": "6 samples, 5 intervals, deliberately mixing every bucket to exercise the full invariant at once. i0 (t0->t1, moving=true, hr=140/Zone2): zone2+=1. i1 (t1->t2, moving=false): non_moving+=1. i2 (t2->t3, moving=true, hr=null): unrepresented/missing_hr+=1. i3 (t3->t34, moving=true, hr=145/Zone2, gap=31>30): zone2+=30 (capped), unrepresented/large_gap+=1 (excess). i4 (t34->t35, moving=true, hr=150/Zone2, gap=1): zone2+=1. Last sample contributes 0. Totals: zone2_seconds=1+30+1=32, non_moving_seconds=1, unrepresented_seconds=1(missing_hr)+1(large_gap)=2, total_represented_seconds=35-0=35. Invariant: 32+0+1+2=35. This run belongs in partial_coverage (unrepresented_seconds>0), not exclusions -- it DID contribute real zone2 time.",
+  "time": [0, 1, 2, 3, 34, 35],
+  "heart_rate": [140, 140, null, 145, 150, 150],
+  "moving": [true, false, true, true, true, true]
+}

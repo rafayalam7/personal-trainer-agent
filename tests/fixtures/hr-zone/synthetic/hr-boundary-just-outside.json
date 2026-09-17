@@ -1,0 +1,6 @@
+{
+  "_expected": "hr=131 (just below Zone 2's lower bound) and hr=164 (just above Zone 2's upper bound) -> both intervals land in other_zone, never zone2. other_zone_seconds=2, zone2_seconds=0.",
+  "time": [0, 1, 2],
+  "heart_rate": [131, 164, 164],
+  "moving": [true, true, true]
+}

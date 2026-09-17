@@ -1,0 +1,9 @@
+{
+  "_expected": "With the same window as run-exactly-at-window-start.json, this activity starts exactly 1 second before windowStart -> EXCLUDED from window membership entirely (does not even appear in recorded_runs_considered). Unaffected by the inclusive/exclusive boundary convention -- this instant is outside the window either way.",
+  "id": "syn-007",
+  "name": "Synthetic run 1 second before window start",
+  "sport_type": "Run",
+  "start_local": "2026-09-04T20:59:59",
+  "is_trainer": false,
+  "summary": { "distance": 1000, "moving_time": 600, "elapsed_time": 600 }
+}

@@ -1,0 +1,14 @@
+{
+  "_expected": "First of a genuine two-page pagination sequence -- has_next_page:true here is CORRECT and must not, by itself, cause failure when the terminal page (page2-of-2.json) is also provided.",
+  "status": "ok",
+  "tool_name": "mcp__strava-mcp__list_activities",
+  "tool_input": { "first": 1, "include_tags": true },
+  "captured_at": "2026-09-12T00:00:00.000Z",
+  "parsed": {
+    "activities": [
+      { "id": "page1-001", "sport_type": "Run", "start_local": "2026-09-08T08:00:00", "is_trainer": false, "summary": { "distance": 5000, "moving_time": 1800 } }
+    ],
+    "has_next_page": true,
+    "end_cursor": "cursor-to-page-2"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "_comment": "Real excerpt (first 10 samples) from activity 90000000005's get_activity_streams response, requesting only time/heart_rate/moving. No location/GPS data was ever requested for this capture. Shows the run's real warm-up: watch started before the athlete began moving (moving:false for the first 4 seconds), then moving:true, with one brief moving:false blip at t=5. Activity ID replaced with a synthetic placeholder for public release.",
+  "time": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+  "heart_rate": [114, 114, 115, 116, 118, 120, 121, 123, 125, 127],
+  "moving": [false, false, false, false, true, false, true, true, true, true]
+}

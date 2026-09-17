@@ -1,0 +1,8 @@
+{
+  "_expected": "A capture-object (not a raw streams object) with status:retrieval_failed for THIS ONE activity's get_activity_streams call. adaptHrStreamCaptures must mark only this activity_id as { retrieval_failed: true } -- never taint the whole batch (unlike a failed activity-LIST retrieval). eligibilityForHrZoneTime must then return state:'retrieval_failed', distinct from 'missing'.",
+  "status": "retrieval_failed",
+  "tool_name": "mcp__strava-mcp__get_activity_streams",
+  "tool_input": { "activity_id": "syn-hr-005", "streams": ["time", "heart_rate", "moving"] },
+  "error": "failed to get activity streams",
+  "captured_at": "2026-09-12T00:00:00.000Z"
+}

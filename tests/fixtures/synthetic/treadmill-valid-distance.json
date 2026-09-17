@@ -1,0 +1,9 @@
+{
+  "_expected": "eligible: true, state: valid -- a treadmill run (is_trainer:true) with real distance/moving_time evidence, same shape as the real 2026-09-16 Technogym Skillrun sync. Proves the metric-level sum now includes a treadmill run's distance, not just eligibility.js in isolation.",
+  "id": "syn-004",
+  "name": "Synthetic treadmill run, evidence-valid",
+  "sport_type": "Run",
+  "start_local": "2026-09-08T08:00:00",
+  "is_trainer": true,
+  "summary": { "distance": 3200, "moving_time": 1500, "elapsed_time": 1500 }
+}

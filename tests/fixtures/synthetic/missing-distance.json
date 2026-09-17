@@ -1,0 +1,9 @@
+{
+  "_expected": "eligible: false, state: missing (distance field absent from summary entirely, never treated as 0)",
+  "id": "syn-003",
+  "name": "Synthetic run with no distance field",
+  "sport_type": "Run",
+  "start_local": "2026-09-08T08:00:00",
+  "is_trainer": false,
+  "summary": { "moving_time": 1200, "elapsed_time": 1200 }
+}

@@ -1,0 +1,6 @@
+{
+  "_expected": "Mirrors the user's example (t=120, then t=430 -- a 310s gap), both moving:true, hr in Zone 2 (140, 145). Interval 0 (120->430, gap=310s > maxGapSeconds=30): capped 30s -> zone2_seconds, excess 280s -> unrepresented_seconds/large_gap_seconds. Interval 1 (430->431, gap=1s): full 1s -> zone2_seconds. Last sample contributes 0. Totals: zone2_seconds=31, unrepresented_seconds=280 (all large_gap_seconds), total_represented_seconds=431-120=311. Invariant: 31+0+0+280=311.",
+  "time": [120, 430, 431],
+  "heart_rate": [140, 145, 150],
+  "moving": [true, true, true]
+}

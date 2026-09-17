@@ -1,0 +1,6 @@
+{
+  "_expected": "Exactly the example from the contract review: 3 aligned samples MUST be preserved (never collapsed to 2 valid-HR samples with an inferred 2s gap). Interval 0 (t0->t1): moving[0]=true, hr[0]=145 (Zone2) -> zone2_seconds=1. Interval 1 (t1->t2): moving[1]=false -> non_moving_seconds=1 (the null hr[1] is irrelevant -- moving gates before hr is even checked). Last sample contributes 0. Totals: zone2_seconds=1, non_moving_seconds=1, unrepresented_seconds=0, total_represented_seconds=2. Invariant: 1+0+1+0=2.",
+  "time": [0, 1, 2],
+  "heart_rate": [145, null, 148],
+  "moving": [true, false, true]
+}

@@ -1,0 +1,9 @@
+{
+  "_expected": "adaptCaptures([this]) -> retrievalStatus: ok, activities: []. computeTrailingRunningDistance on the result -> coverage.status: empty, result.value_m: 0. Distinguishable from retrieval-failure.json's retrieval_failed, and from a batch with runs that were all excluded (which would be 'partial', not 'empty').",
+  "status": "ok",
+  "tool_name": "mcp__strava-mcp__list_activities",
+  "tool_input": { "first": 30, "include_tags": true },
+  "captured_at": "2026-09-11T21:00:00.000Z",
+  "raw_text": "{\"activities\":[],\"has_next_page\":false}",
+  "parsed": { "activities": [], "has_next_page": false }
+}

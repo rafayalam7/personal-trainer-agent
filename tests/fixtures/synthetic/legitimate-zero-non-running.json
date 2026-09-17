@@ -1,0 +1,9 @@
+{
+  "_expected": "distance.value_m: 0 is a LEGITIMATE zero here (a lift genuinely covers no distance) -- but this fixture is classified 'lift', not 'run', so it never reaches the running-distance eligibility check at all. Contrast with treadmill-invalid-distance.json and duplicate cases: a 'Run'-classified activity with distance:0 is treated as invalid (a data problem), never legitimate_zero -- see CONTRACT.md precedence rule 7. There is no semantically valid zero-distance *run* in V1: a genuinely completed run inherently covers nonzero distance, so a recorded zero always indicates a tracking failure, not a real outcome worth reporting as 0 miles.",
+  "id": "syn-008",
+  "name": "Synthetic lift with legitimate zero distance",
+  "sport_type": "WeightTraining",
+  "start_local": "2026-09-08T08:00:00",
+  "is_trainer": true,
+  "summary": { "distance": 0, "moving_time": 2400, "elapsed_time": 2400 }
+}

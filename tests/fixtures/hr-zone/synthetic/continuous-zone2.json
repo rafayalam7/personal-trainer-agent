@@ -1,0 +1,6 @@
+{
+  "_expected": "4 samples, 3 intervals, all moving:true, all hr within [132,163] -> zone2_seconds=3 (1+1+1), total_represented_seconds=3, no other bucket nonzero.",
+  "time": [0, 1, 2, 3],
+  "heart_rate": [140, 142, 141, 145],
+  "moving": [true, true, true, true]
+}

@@ -1,0 +1,23 @@
+{
+  "_comment": "Sanitized real capture (activity 90000000002, 'Technogym Skillrun: Quick Start', 2026-09-16). is_trainer:true (treadmill) but summary is structurally real: nonzero distance, moving_time == elapsed_time (no idle gap), plausible avg_speed/avg_cadence. This is the real record that invalidated the old blanket is_trainer:true exclusion -- a treadmill sync can be just as trustworthy as an outdoor one. gear_id stripped; activity ID replaced with a synthetic placeholder for public release.",
+  "id": "90000000002",
+  "name": "Technogym Skillrun: Quick Start",
+  "description": "Average HR: 175",
+  "sport_type": "Run",
+  "start_local": "2026-09-16T17:31:46",
+  "is_trainer": true,
+  "activity_tags": ["Workout"],
+  "summary": {
+    "distance": 4839.7,
+    "moving_time": 1975,
+    "elapsed_time": 1975,
+    "elevation_gain": 0,
+    "avg_speed": 2.4504810126582277,
+    "max_speed": 2.58,
+    "avg_cadence": 78.2933,
+    "total_calories": 396,
+    "kudos_count": 0,
+    "achievement_count": 0,
+    "pr_count": 0
+  }
+}

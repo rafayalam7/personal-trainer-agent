@@ -1,0 +1,21 @@
+{
+  "_comment": "Sanitized real capture (activity 90000000005, 'Evening Run', 2026-09-09). location_summary and gear_id stripped per Pre-Phase-7 capture-boundary policy — never commit location/GPS-adjacent fields. Activity ID replaced with a synthetic placeholder for public release.",
+  "id": "90000000005",
+  "name": "Evening Run",
+  "sport_type": "Run",
+  "start_local": "2026-09-09T18:28:46",
+  "is_trainer": false,
+  "activity_tags": ["Workout"],
+  "summary": {
+    "distance": 4848.7,
+    "moving_time": 1905,
+    "elapsed_time": 1918,
+    "elevation_gain": 0,
+    "avg_speed": 2.5452493438320207,
+    "max_speed": 4.06,
+    "total_calories": 473,
+    "kudos_count": 0,
+    "achievement_count": 1,
+    "pr_count": 1
+  }
+}

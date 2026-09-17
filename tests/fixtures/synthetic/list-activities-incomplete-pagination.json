@@ -1,0 +1,14 @@
+{
+  "_expected": "A successfully-retrieved page that itself says more activities exist (has_next_page:true), and no other page is provided to prove pagination ever reached its end. adaptCaptures must treat this as retrievalStatus:'failed' -- real evidence found this session: our own first:30 capture had has_next_page:true and was, until this fix, silently treated as complete.",
+  "status": "ok",
+  "tool_name": "mcp__strava-mcp__list_activities",
+  "tool_input": { "first": 30, "include_tags": true },
+  "captured_at": "2026-09-12T00:00:00.000Z",
+  "parsed": {
+    "activities": [
+      { "id": "incomplete-001", "sport_type": "Run", "start_local": "2026-09-08T08:00:00", "is_trainer": false, "summary": { "distance": 5000, "moving_time": 1800 } }
+    ],
+    "has_next_page": true,
+    "end_cursor": "some-cursor"
+  }
+}

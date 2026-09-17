@@ -1,0 +1,22 @@
+{
+  "_comment": "Sanitized real capture (activity 90000000001, 'Afternoon Run', 2026-08-30). Athlete's own description says 'Treadmill' — is_trainer:true confirms it structurally. gear_id stripped; activity ID replaced with a synthetic placeholder for public release.",
+  "id": "90000000001",
+  "name": "Afternoon Run",
+  "description": "2 mi\n10:00 min pace\nTreadmill\nAvg heart rate 180",
+  "sport_type": "Run",
+  "start_local": "2026-08-30T17:23:27",
+  "is_trainer": true,
+  "activity_tags": ["Workout"],
+  "summary": {
+    "distance": 0,
+    "moving_time": 2,
+    "elapsed_time": 2,
+    "elevation_gain": 0,
+    "avg_speed": 0,
+    "max_speed": 0,
+    "total_calories": 0,
+    "kudos_count": 0,
+    "achievement_count": 0,
+    "pr_count": 0
+  }
+}

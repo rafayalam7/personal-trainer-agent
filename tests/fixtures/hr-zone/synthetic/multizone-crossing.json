@@ -1,0 +1,6 @@
+{
+  "_expected": "5 samples, 4 intervals, all moving:true. i0 hr=120 (Zone1, other_zone) 1s. i1 hr=135 (Zone2) 1s. i2 hr=150 (Zone2) 1s. i3 hr=170 (Zone3, other_zone) 1s. Last sample contributes 0. zone2_seconds=2, other_zone_seconds=2, total_represented_seconds=4.",
+  "time": [0, 1, 2, 3, 4],
+  "heart_rate": [120, 135, 150, 170, 190],
+  "moving": [true, true, true, true, true]
+}

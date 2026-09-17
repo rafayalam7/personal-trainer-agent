@@ -1,0 +1,15 @@
+.DS_Store
+Thumbs.db
+*.log
+.env
+
+# Local Claude Code config (hooks experiment) and any raw MCP capture output —
+# never commit raw Strava responses.
+.claude/settings.local.json
+state/.hook-capture-test/
+state/.raw-capture/
+
+# Real personal coaching history — never publish actual check-ins/reviews.
+# The public repo demonstrates the schema/workflow via state/examples/ instead.
+state/checkins/
+state/reviews/

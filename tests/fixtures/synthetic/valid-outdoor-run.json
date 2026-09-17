@@ -1,0 +1,9 @@
+{
+  "_expected": "eligible: true, state: valid, distance.value_m: 5000",
+  "id": "syn-001",
+  "name": "Synthetic valid outdoor run",
+  "sport_type": "Run",
+  "start_local": "2026-09-08T08:00:00",
+  "is_trainer": false,
+  "summary": { "distance": 5000, "moving_time": 1800, "elapsed_time": 1810 }
+}

@@ -1,0 +1,14 @@
+{
+  "_expected": "Terminal page (has_next_page:false) of the same sequence as page1-of-2.json. Together, adaptCaptures must return retrievalStatus:'ok' with BOTH activities present.",
+  "status": "ok",
+  "tool_name": "mcp__strava-mcp__list_activities",
+  "tool_input": { "first": 1, "include_tags": true, "after": "cursor-to-page-2" },
+  "captured_at": "2026-09-12T00:00:01.000Z",
+  "parsed": {
+    "activities": [
+      { "id": "page2-001", "sport_type": "Run", "start_local": "2026-09-07T08:00:00", "is_trainer": false, "summary": { "distance": 4000, "moving_time": 1500 } }
+    ],
+    "has_next_page": false,
+    "end_cursor": "cursor-end"
+  }
+}

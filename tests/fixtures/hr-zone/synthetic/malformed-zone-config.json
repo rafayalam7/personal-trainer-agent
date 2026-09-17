@@ -1,0 +1,5 @@
+{
+  "_expected": "heart_rate_zones has only 1 entry -- index 1 (Zone 2) does not exist. normalizeZoneConfig must set valid:false. computeTrailingRunningHrZone2Time must then return coverage.status:'config_invalid' for the WHOLE result -- never a per-activity exclusion, since no activity can be analyzed without a usable Zone 2 definition.",
+  "heart_rate_zones": [{ "min": 0, "max": 131 }],
+  "heart_rate_zone_source": "MaxHeartRate"
+}

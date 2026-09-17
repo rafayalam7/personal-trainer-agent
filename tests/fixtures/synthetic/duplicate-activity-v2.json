@@ -1,0 +1,9 @@
+{
+  "_expected": "Same source_activity_id as duplicate-activity-v1.json (syn-004), different distance (edited/re-captured). This version simulates a LATER capture and SHOULD win dedup precedence: exactly 4500m contributes, not 4000m, and not both.",
+  "id": "syn-004",
+  "name": "Synthetic run, later re-capture (edited distance)",
+  "sport_type": "Run",
+  "start_local": "2026-09-08T08:00:00",
+  "is_trainer": false,
+  "summary": { "distance": 4500, "moving_time": 1550, "elapsed_time": 1550 }
+}

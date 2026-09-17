@@ -1,0 +1,7 @@
+{
+  "_comment": "Real get_activity_streams response for activity 90000000001 (the treadmill run that's INVALID for trailing_running_distance -- is_trainer:true, distance:0). This is the real proof case: has_heartrate:true and a real, if tiny, HR stream. Only 3 samples exist in the real data -- genuinely this short, not truncated by us. Activity ID replaced with a synthetic placeholder for public release.",
+  "_expected": "2 intervals, both moving:true, hr 180 then 180 (both <132, Zone 1, other_zone). i=0: hr=180 -> other_zone, 1s. i=1: hr=180 -> other_zone, 1s. Last sample (i=2) contributes 0. total_represented_seconds=2. other_zone_seconds=2, zone2_seconds=0, non_moving=0, unrepresented=0.",
+  "time": [0, 1, 2],
+  "heart_rate": [180, 180, 178],
+  "moving": [true, true, true]
+}

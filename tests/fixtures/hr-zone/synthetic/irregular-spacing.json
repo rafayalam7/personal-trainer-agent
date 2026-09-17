@@ -1,0 +1,6 @@
+{
+  "_expected": "Non-uniform sample spacing (deltas 2,3,4,5 -- none exceeding maxGapSeconds=30), all moving:true, all hr in Zone 2. Sample-counting would wrongly give '4 samples worth' of time; correct time-weighting gives zone2_seconds = 2+3+4+5 = 14, matching total_represented_seconds = 14-0 = 14 exactly.",
+  "time": [0, 2, 5, 9, 14],
+  "heart_rate": [140, 142, 145, 148, 150],
+  "moving": [true, true, true, true, true]
+}

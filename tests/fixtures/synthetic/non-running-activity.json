@@ -1,0 +1,9 @@
+{
+  "_expected": "internal_activity_type: lift, not run. Contributes nothing and does not appear in exclusions (it's not a candidate run at all, not an excluded one) even though it's inside the window.",
+  "id": "syn-005",
+  "name": "Synthetic lift",
+  "sport_type": "WeightTraining",
+  "start_local": "2026-09-08T08:00:00",
+  "is_trainer": true,
+  "summary": { "distance": 0, "moving_time": 3000, "elapsed_time": 3000 }
+}
